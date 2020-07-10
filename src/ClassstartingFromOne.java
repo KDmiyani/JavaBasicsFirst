@@ -25,5 +25,18 @@ public class ClassstartingFromOne {
         System.out.println((char)124);
         System.out.println("hello world");
 
+
+// ADD class ==== basics
+        Add.math();
+        Add.increment();
+        Add.binary();
+        Add.postpreyincrement();
+
+//Controller class
+        Contoller.ifelse();
+        Contoller.ternaryoperator();
+        Contoller.swichcase();
+        Contoller.forloop();
+
     }
 }
