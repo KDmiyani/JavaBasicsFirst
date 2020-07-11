@@ -37,6 +37,26 @@ public class ClassstartingFromOne {
         Contoller.ternaryoperator();
         Contoller.swichcase();
         Contoller.forloop();
+        Contoller.breakstatement();
+        Contoller.ascii();
+
+
+//pattern
+
+        Pattern.pattern();
+        Pattern.pattern1();
+        Pattern.fibonacci();
+        Pattern.pelindrom();
+        Pattern.perfectnumber();
+        Pattern.armstrong();
+
+
+//Arry demo
+
+        Arry.arrydemo();
+        Arry.randomdemo();
+        Arry.exceptionhadlingdemo();
+        Arry.twodimentionary();
 
     }
 }

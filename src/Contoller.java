@@ -64,12 +64,38 @@ public class Contoller {
             System.out.println("this is whilke loop " + j);
             j++;
         }
-        
+
         int k = 0;
         do {
             System.out.println("this is DO WHILE LOOP"+ k );
             k++;
         }while (k <= 10);
+    }
+
+    public static void breakstatement() {
+
+        kd:
+        for (int i = 0; i <= 4; i++) {
+            for (int j = 0; j <= 4; j++) {
+                if (i==3){
+
+                    break kd;
+                }
+
+                System.out.printf("* ");
+            }
+            System.out.println("");
+        }
+    }
+
+    public static void ascii()
+    {
+
+        for(int i = 0; i<=127;i++ )
+        {
+
+            System.out.printf("%d : %c \n",i,i);
+        }
     }
 
 }
