@@ -9,7 +9,7 @@ public class ClassstartingFromOne {
 
     mltpl line comment*/
 
-    public static void main(String a[]){
+    public static void main(String... args){
         int num1 = 10;
         int num2 = 2;
         float c = 2.3f;
@@ -57,6 +57,40 @@ public class ClassstartingFromOne {
         Arry.randomdemo();
         Arry.exceptionhadlingdemo();
         Arry.twodimentionary();
+
+
+//ClassmethodVariables
+
+
+         ClassMethodVariables.varargesVariable(1,4,3,5,6,6,6,6,6,6,6,6,6,6,6,6);
+         ClassMethodVariables bjc = new ClassMethodVariables();
+         ClassMethodVariables bjc1 = new ClassMethodVariables(5);
+         ClassMethodVariables bjc2 = new ClassMethodVariables(5,10);
+
+
+
+
+//EncaplusionExample-----
+
+        EncapsulationExample q = new EncapsulationExample();
+        q.setName("keval");
+        System.out.print("\n"+q.getName());
+
+//Inheritence Example
+     B obj = new B();
+     obj.add(5,10);
+
+     B obj1 = new B();
+     B obj2 = new B(3);
+
+
+//// Pholymorw example
+      PolymorphismExample.add();
+      PolymorphismExample.add(5);
+      PolymorphismExample.add(5,10);
+
+      Overriding.add();
+
 
     }
 }

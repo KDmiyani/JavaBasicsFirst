@@ -72,7 +72,15 @@ public class Arry {
             System.out.println("");
         }
 
+        for (int q[]: a){
+
+            for (int w : q){
+                System.out.print(w);
+            }System.out.println("");
+        }
 
     }
+
+
 
 }
