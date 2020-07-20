@@ -20,7 +20,7 @@ class Overriding extends PolymorphismExample{
 
 
     public static void add(){
-        
+
         System.out.print("\n\n\n\n RIght now we are in Overriding");
     }
 
