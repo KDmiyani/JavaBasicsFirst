@@ -1,5 +1,6 @@
 public class ThisSuperkeyWord {
 
+public  ThisSuperkeyWord (){}
 
     int x;
     public ThisSuperkeyWord(int x){
@@ -23,4 +24,24 @@ public class ThisSuperkeyWord {
 
 
     }
+    public void abc(){
+
+        System.out.print("hello");
+    }
+    public void abcd(){
+
+        System.out.println("hello   abcd");
+    }
+
+
+    public static void anomouse(){
+
+
+        ThisSuperkeyWord obj = new ThisSuperkeyWord();
+        obj.abc();
+        new ThisSuperkeyWord().abcd();
+
+
+    }
 }
+

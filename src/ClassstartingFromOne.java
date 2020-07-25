@@ -1,15 +1,13 @@
 public class ClassstartingFromOne {
 //comment on line
-/*
-    sdhgff
-    sfyjfgh
-            sahjgwhjf
-    sdfggf
-                    sdhejh
 
-    mltpl line comment*/
 
-    public static void main(String... args){
+    public static void main(String... args) throws  Exception{
+     /*   int i = System.in.read();
+        System.out.println((char) i);
+
+
+
         int num1 = 10;
         int num2 = 2;
         float c = 2.3f;
@@ -94,7 +92,55 @@ public class ClassstartingFromOne {
 /////// THis key word
         ThisSuperkeyWord kd = new ThisSuperkeyWord(4);
         ThisSuperkeyWord.finalexample();
+        ThisSuperkeyWord.anomouse();
+
+
+
+        ABCD jj1= new ABCD(5,10);
+
+
+        dhaval mk = new dhaval();
+        mk.move();
+        mk.cook();
+        mk.dance();
+        mk.call();
+
+        childclass zx = new childclass();
+        zx.show();
+        zx.printbuddy();
+
+        INTERFACEexample zxx = new childclass();
+        zxx.show();
+
+
+        StringOperation.stringconcat();
+        StringOperation.stringlength();
+        StringOperation.stringUppercase();
+
+        StringOperation so = new StringOperation(10,"keval");
+        System.out.println(so.toString());
+*/
+
+
+     /*   BufferReaderForInputStream.BBBBfuurreader();
+        BufferReaderForInputStream.Bexample();
+        */
+      /*  BufferReaderForInputStream.examleofscanner();
+        BufferReaderForInputStream.wrappweclass();
+        BufferReaderForInputStream.splitstringmethod();
+        BufferReaderForInputStream.stringbufferrrrr();*/
+
+
+
+        XYZ.demotakeinput();
+
+
 
 
     }
+
+
+
+
+
 }
