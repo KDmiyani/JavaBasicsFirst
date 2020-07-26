@@ -132,7 +132,10 @@ public class ClassstartingFromOne {
 
 
 
-        XYZ.demotakeinput();
+       /* XYZ.demotakeinput();
+
+        Exceptiobclass.first();*/
+        Exceptiobclass.customExeption();
 
 
 
@@ -144,3 +147,4 @@ public class ClassstartingFromOne {
 
 
 }
+
