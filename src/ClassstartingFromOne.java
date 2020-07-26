@@ -2,7 +2,7 @@ public class ClassstartingFromOne {
 //comment on line
 
 
-    public static void main(String... args) throws  Exception{
+    public static void main(String... args) throws Exception {
      /*   int i = System.in.read();
         System.out.println((char) i);
 
@@ -132,18 +132,31 @@ public class ClassstartingFromOne {
 
 
 
-       /* XYZ.demotakeinput();
+ /*       XYZ.demotakeinput();
 
-        Exceptiobclass.first();*/
-        Exceptiobclass.customExeption();
+        Exceptiobclass.first();
+        Exceptiobclass.customExeption();*/
 
 
+        /*cloningobject obj10 = new cloningobject();
+        obj10.i=10;
+        obj10.j=15;
+        System.out.println(obj10);
+
+        cloningobject obj11 = obj10;
+
+        cloningobject obj12 = new cloningobject();
+        obj12.i = obj10.i;
+        obj12.j = obj10.j;
+
+        */
+
+
+        FlieHandling.filefirst();
+        FlieHandling.propertyclass();
 
 
     }
-
-
-
 
 
 }
