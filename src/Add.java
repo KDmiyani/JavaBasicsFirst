@@ -1,4 +1,10 @@
 public class Add {
+    int i,j;
+
+    public Add(int i, int j) {
+        this.i = i;
+        this.j = j;
+    }
 
     public static void math() {
 

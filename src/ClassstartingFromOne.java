@@ -152,8 +152,76 @@ public class ClassstartingFromOne {
         */
 
 
-        FlieHandling.filefirst();
-        FlieHandling.propertyclass();
+       /* FlieHandling.filefirst();
+        FlieHandling.propertyclass();*/
+
+        /*Objectserialized.firstserialized();
+        Objectserialized.deserializable();*/
+
+
+       /* ABCD ad = new XYZ(10,11);
+
+       ThreadclassExample thrd = new ThreadclassExample();
+       Hello hello = new Hello();
+
+
+
+       thrd.start();
+       hello.start();
+
+       Haii haii = new Haii();
+       Hoiii hoiii = new Hoiii();
+
+
+       Thread t1 = new Thread(haii);
+       Thread t2 = new Thread(hoiii);
+
+       t1.start();
+       Thread.sleep(100);
+       t2.start();*/
+
+      /*  MiyaniThread miyaniThread = new MiyaniThread(10);
+
+        Thread t1 = new Thread(miyaniThread);
+        t1.start();
+*/
+
+
+        Thread t3 =  new Thread(()-> {
+            for (int i = 0; i <= 4; i++) {
+                System.out.println("OUT PUT.......Null");
+                try {
+                    Thread.sleep(1000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+        });
+        Thread t4 = new Thread(()-> {
+            for (int i = 0; i <= 4; i++) {
+                System.out.println(".......Processing.....");
+                try {
+                    Thread.sleep(1000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace();
+                }
+            }
+        });
+
+        t3.setName("hai i am first THREAD-T001");
+        System.out.println(t3.getName());
+
+        t3.start();
+        t4.setName("hai i am first THREAD-T002");
+        System.out.println(t4.getName());
+        t4.start();
+
+        t3.join();
+        t4.join();
+
+
+
+        System.out.println("bye");
 
 
     }

@@ -9,6 +9,8 @@ public class ABCD {
     public ABCD(int name, int lastname) {
         this.name = name;
         this.lastname = lastname;
+
+        System.out.println(name+"  : "+lastname);
     }
 
 
@@ -25,6 +27,7 @@ class XYZ extends ABCD{
 
     public XYZ(int name, int lastname) {
         super(name, lastname);
+        System.out.println(name+"  : "+lastname);
     }
 
     public void childprint(){
